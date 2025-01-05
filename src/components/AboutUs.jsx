@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Navigationbar } from './Navigationbar';
-import teamMember3Image from '../img/munot-pic.png';
+import munot from '../img/munot-pic.png';
+import mehul from '../img/mehul.jpg';
 import backimg from '../img/video (1080p).mp4'
 import { Container } from "react-bootstrap";
 import './AboutUs.css';
@@ -43,65 +44,100 @@ export function AboutUs() {
               Your browser does not support the video tag.
             </video>
             <section className="section-white mt-5">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-12 text-center">
-        <h2 className="section-title">Meet The Founder</h2>
-      </div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <h2 className="section-title">Meet the Founder</h2>
+                            <p className="section-subtitle mt-3">
+                                Embark on a journey with the visionaries behind our brand. Our founders are dedicated to enriching your experience with a curated selection of exceptional artworks.
+                            </p>
+                        </div>
 
-      <div className="col-md-12">
-        <div className="team-item d-flex align-items-center">
-          <div className="team-img-container" style={{ flex: '1', marginRight: '20px' }}>
-            <img
-              src={teamMember3Image}
-              className="team-img"
-              style={{ width: '100%', height: '60vh', objectFit: 'cover' }}
-              alt="pic"
-            />
-          </div>
-          
-          <div className="team-info" style={{ flex: '2' }}>
-            <h2>Munot Gadale</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sequi nemo incidunt quisquam quos, nam
-              voluptate tempora suscipit odio a? Ex vel quisquam recusandae reiciendis asperiores minima, porro nisi
-              consequatur.
-            </p>
-            <div className="item-social mt-4">
-              <a
-                href="https://www.linkedin.com/in/munot-gadale-4a804722a/"
-                style={{ textDecoration: 'none' }}
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
+                        
 
-              <a
-                href="https://www.linkedin.com/in/munot-gadale-4a804722a/"
-                style={{ textDecoration: 'none' }}
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
+                        <section id="about" className="about-section mt-5 mb-3">
+                            <div className="container">
+                                <div className="row">
 
-              <a
-                href="https://www.linkedin.com/in/munot-gadale-4a804722a/"
-                style={{ textDecoration: 'none' }}
-              >
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
+                                    <div className="col-lg-8 col-md-12 col-12 ps-lg-5 md-5">
+                                        <div className="about-text">
+                                            <h1>Munot Gadale</h1>
 
-              <a
-                href="https://www.linkedin.com/in/munot-gadale-4a804722a/"
-                style={{ textDecoration: 'none' }}
-              >
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sequi nemo incidunt quisquam quos, nam voluptate tempora suscipit odio a? Ex vel quisquam recusandae reiciendis asperiores minima, porro nisi consequatur.</h5>
+                                            <div className="item-social mt-4">
+                                                <a href="https://www.linkedin.com/in/munot-gadale-4a804722a/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faLinkedin} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/munot-gadale-4a804722a/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faInstagram} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/munot-gadale-4a804722a/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faFacebook} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/munot-gadale-4a804722a/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faTwitter} />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-mf-12 col-12">
+                                        <div className="about-img">
+                                            <img src={munot} alt="" className="img-fluid hover-effect" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="section-white mt-5">
+                <div className="container">
+                    <div className="row">
+                        <section id="about" className="about-section mt-5 mb-3">
+                            <div className="container">
+                                <div className="row">
+                                <div className="col-lg-4 col-mf-12 col-12">
+                                        <div className="about-img">
+                                            <img src={mehul} alt="" className="img-fluid hover-effect" />
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-8 col-md-12 col-12 ps-lg-5 md-5">
+                                        <div className="about-text">
+                                            <h1>Mehul Bhole</h1>
+
+                                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sequi nemo incidunt quisquam quos, nam voluptate tempora suscipit odio a? Ex vel quisquam recusandae reiciendis asperiores minima, porro nisi consequatur.</h5>
+                                            <div className="item-social mt-4">
+                                                <a href="https://www.linkedin.com/in/mehul-bhole-062923195/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faLinkedin} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/mehul-bhole-062923195/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faInstagram} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/mehul-bhole-062923195/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faFacebook} />
+                                                </a>
+
+                                                <a href="https://www.linkedin.com/in/mehul-bhole-062923195/" style={{ textDecoration: 'none' }}>
+                                                    <FontAwesomeIcon icon={faTwitter} />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </section>
+
+                    </div>
+                </div>
+            </section>
 
 
         </>

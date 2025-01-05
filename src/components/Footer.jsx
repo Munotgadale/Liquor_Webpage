@@ -12,9 +12,10 @@ export const Footer = () => {
                 <Container>
                     <Row>
                         <Col sm={6} md={3} className="item">
-                            <h3>Owner</h3>
+                            <h3>Founder</h3>
                             <ul>
                                 <li>Munot Gadale</li>
+                                <li>Mehul Bhole</li>
                             </ul>
                         </Col>
                         <Col sm={6} md={3} className="item">
@@ -54,7 +55,7 @@ export const Footer = () => {
                             </a>
                         </Col>
                     </Row>
-                    <p className="copyright">LiquiVista © 2023</p>
+                    <p className="copyright">LiquiVista © 2025</p>
                 </Container>
             </footer>
         </div>
